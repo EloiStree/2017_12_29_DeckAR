@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="JokerBlack" size="1.000000 1.350582" />
+    <ImageTarget name="JokerRed" size="1.000000 1.350582" />
     <ImageTarget name="Spare_Q" size="1.000000 1.350582" />
     <ImageTarget name="Spare_K" size="1.000000 1.350582" />
     <ImageTarget name="Spare_J" size="1.000000 1.350582" />
@@ -14,8 +16,6 @@
     <ImageTarget name="Spare_3" size="1.000000 1.350582" />
     <ImageTarget name="Spare_2" size="1.000000 1.350582" />
     <ImageTarget name="Spare_1" size="1.000000 1.350582" />
-    <ImageTarget name="JokerRed" size="1.000000 1.350582" />
-    <ImageTarget name="JokerBlack" size="1.000000 1.350582" />
     <ImageTarget name="Index" size="1.000000 1.350582" />
     <ImageTarget name="Heart_Q" size="1.000000 1.350582" />
     <ImageTarget name="Heart_K" size="1.000000 1.350582" />
