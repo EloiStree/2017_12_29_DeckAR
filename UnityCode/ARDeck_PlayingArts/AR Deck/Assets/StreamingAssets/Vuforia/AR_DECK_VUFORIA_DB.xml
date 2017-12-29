@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="Spare_Q" size="1.000000 1.350582" />
+    <ImageTarget name="Spare_K" size="1.000000 1.350582" />
+    <ImageTarget name="Spare_J" size="1.000000 1.350582" />
+    <ImageTarget name="Spare_10" size="1.000000 1.350582" />
+    <ImageTarget name="Spare_9" size="1.000000 1.350582" />
+    <ImageTarget name="Spare_8" size="1.000000 1.350582" />
+    <ImageTarget name="Spare_7" size="1.000000 1.350582" />
+    <ImageTarget name="Spare_6" size="1.000000 1.350582" />
+    <ImageTarget name="Spare_5" size="1.000000 1.350582" />
+    <ImageTarget name="Spare_4" size="1.000000 1.350582" />
+    <ImageTarget name="Spare_3" size="1.000000 1.350582" />
+    <ImageTarget name="Spare_2" size="1.000000 1.350582" />
+    <ImageTarget name="Spare_1" size="1.000000 1.350582" />
+    <ImageTarget name="JokerRed" size="1.000000 1.350582" />
+    <ImageTarget name="JokerBlack" size="1.000000 1.350582" />
+    <ImageTarget name="Index" size="1.000000 1.350582" />
+    <ImageTarget name="Heart_Q" size="1.000000 1.350582" />
+    <ImageTarget name="Heart_K" size="1.000000 1.350582" />
+    <ImageTarget name="Heart_J" size="1.000000 1.350582" />
+    <ImageTarget name="Heart_10" size="1.000000 1.350582" />
+    <ImageTarget name="Heart_9" size="1.000000 1.350582" />
+    <ImageTarget name="Heart_8" size="1.000000 1.350582" />
+    <ImageTarget name="Heart_7" size="1.000000 1.350582" />
+    <ImageTarget name="Heart_6" size="1.000000 1.350582" />
+    <ImageTarget name="Heart_5" size="1.000000 1.350582" />
+    <ImageTarget name="Heart_4" size="1.000000 1.350582" />
+    <ImageTarget name="Heart_3" size="1.000000 1.350582" />
+    <ImageTarget name="Heart_2" size="1.000000 1.350582" />
+    <ImageTarget name="Heart_1" size="1.000000 1.350582" />
+    <ImageTarget name="Diamond_Q" size="1.000000 1.350582" />
+    <ImageTarget name="Diamond_K" size="1.000000 1.350582" />
+    <ImageTarget name="Diamond_J" size="1.000000 1.350582" />
+    <ImageTarget name="Diamond_10" size="1.000000 1.350582" />
+    <ImageTarget name="Diamond_9" size="1.000000 1.350582" />
+    <ImageTarget name="Diamond_8" size="1.000000 1.350582" />
+    <ImageTarget name="Diamond_7" size="1.000000 1.350582" />
+    <ImageTarget name="Diamond_6" size="1.000000 1.350582" />
+    <ImageTarget name="Diamond_5" size="1.000000 1.350582" />
+    <ImageTarget name="Diamond_4" size="1.000000 1.350582" />
+    <ImageTarget name="Diamond_3" size="1.000000 1.350582" />
+    <ImageTarget name="Diamond_2" size="1.000000 1.350582" />
+    <ImageTarget name="Diamond_1" size="1.000000 1.350582" />
+    <ImageTarget name="Club_Q" size="1.000000 1.350582" />
+    <ImageTarget name="Club_K" size="1.000000 1.350582" />
+    <ImageTarget name="Club_J" size="1.000000 1.350582" />
+    <ImageTarget name="Club_10" size="1.000000 1.350582" />
+    <ImageTarget name="Club_9" size="1.000000 1.350582" />
+    <ImageTarget name="Club_8" size="1.000000 1.350582" />
+    <ImageTarget name="Club_7" size="1.000000 1.350582" />
+    <ImageTarget name="Club_6" size="1.000000 1.350582" />
+    <ImageTarget name="Club_5" size="1.000000 1.350582" />
+    <ImageTarget name="Club_4" size="1.000000 1.350582" />
+    <ImageTarget name="Club_3" size="1.000000 1.350582" />
+    <ImageTarget name="Club_2" size="1.000000 1.350582" />
+    <ImageTarget name="Club_1" size="1.000000 1.350582" />
+    <ImageTarget name="Back" size="1.000000 1.350582" />
+    <ImageTarget name="Artists" size="1.000000 1.350582" />
+  </Tracking>
+</QCARConfig>
