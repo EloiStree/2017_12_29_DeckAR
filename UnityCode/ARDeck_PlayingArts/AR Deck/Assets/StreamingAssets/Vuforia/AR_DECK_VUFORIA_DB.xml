@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="Diamond_5" size="1.000000 1.000000" />
     <ImageTarget name="JokerBlack" size="1.000000 1.350582" />
     <ImageTarget name="JokerRed" size="1.000000 1.350582" />
     <ImageTarget name="Spare_Q" size="1.000000 1.350582" />
@@ -38,7 +39,6 @@
     <ImageTarget name="Diamond_8" size="1.000000 1.350582" />
     <ImageTarget name="Diamond_7" size="1.000000 1.350582" />
     <ImageTarget name="Diamond_6" size="1.000000 1.350582" />
-    <ImageTarget name="Diamond_5" size="1.000000 1.350582" />
     <ImageTarget name="Diamond_4" size="1.000000 1.350582" />
     <ImageTarget name="Diamond_3" size="1.000000 1.350582" />
     <ImageTarget name="Diamond_2" size="1.000000 1.350582" />
