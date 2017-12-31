@@ -6,5 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_Project/Scene/MainScene.unity
+    path: Assets/_Project/Scene/Menu.unity
+    guid: 2cf411658705c4541ad90194f43eae5e
+  - enabled: 1
+    path: Assets/_Project/Scene/PlayingArts.unity
     guid: a1b1d4d6e56955448971948c6ce94022
+  - enabled: 1
+    path: Assets/_Project/Scene/FederationBattle.unity
+    guid: 7cf10c36eac2a714ca0d5b5708f18f10
