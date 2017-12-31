@@ -44,8 +44,10 @@ MonoBehaviour:
       ContainsMagnet: 0
   databaseLoad:
     dataSetsToLoad:
+    - AR_DECK_FEDERATION_BATTLE
     - AR_DECK_VUFORIA_DB
     dataSetsToActivate:
+    - AR_DECK_FEDERATION_BATTLE
     - AR_DECK_VUFORIA_DB
   videoBackground:
     clippingMode: 0

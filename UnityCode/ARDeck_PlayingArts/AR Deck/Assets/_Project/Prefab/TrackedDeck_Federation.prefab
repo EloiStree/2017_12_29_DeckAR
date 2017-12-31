@@ -1,0 +1,438 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1952973507555650}
+  m_IsPrefabParent: 1
+--- !u!1 &1952973507555650
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4497778693685564}
+  - component: {fileID: 114672289037918288}
+  - component: {fileID: 114195996835880734}
+  - component: {fileID: 114388457377156686}
+  - component: {fileID: 114838001438731458}
+  m_Layer: 0
+  m_Name: TrackedDeck_Federation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4497778693685564
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1952973507555650}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.3076172, y: -1.4985352, z: 2.5703125}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114195996835880734
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1952973507555650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2d4ad034d65cbd4fb0c013d394821d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _targetsManager: {fileID: 114672289037918288}
+  _onDeckStatusChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: ImageTrackedToDeck+OnDeckChangeEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  _displayDebug: 1
+--- !u!114 &114388457377156686
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1952973507555650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e8b048a73ec41f4cbef3acec083c34d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _imageToDisplay: {fileID: 0}
+  _cardsToImages:
+  - _id: Club_Ace
+    _card:
+      Family: 2
+      Type: 1
+      Color: 0
+    _image: {fileID: 21300000, guid: 5bfa2f19ca050c949a9900d14608c4fd, type: 3}
+  - _id: Club_Two
+    _card:
+      Family: 2
+      Type: 2
+      Color: 0
+    _image: {fileID: 21300000, guid: e420659e9d5ab1647ad199798cfe9d85, type: 3}
+  - _id: Club_Three
+    _card:
+      Family: 2
+      Type: 3
+      Color: 0
+    _image: {fileID: 21300000, guid: 0fa835ab269e9b7489ed9bf2f4420806, type: 3}
+  - _id: Club_Four
+    _card:
+      Family: 2
+      Type: 4
+      Color: 0
+    _image: {fileID: 21300000, guid: 97f4ac90755d74d45943930a39bb93d6, type: 3}
+  - _id: Club_Five
+    _card:
+      Family: 2
+      Type: 5
+      Color: 0
+    _image: {fileID: 21300000, guid: 8cebeffb6d5b77e40a4c37d2d8966908, type: 3}
+  - _id: Club_Six
+    _card:
+      Family: 2
+      Type: 6
+      Color: 0
+    _image: {fileID: 21300000, guid: 1e3979d1cafb784429d20d753a1572af, type: 3}
+  - _id: Club_Seven
+    _card:
+      Family: 2
+      Type: 7
+      Color: 0
+    _image: {fileID: 21300000, guid: 0f3f8062bf7dbfe40888164ded9821b4, type: 3}
+  - _id: Club_Eight
+    _card:
+      Family: 2
+      Type: 8
+      Color: 0
+    _image: {fileID: 21300000, guid: 9057481d611c3fc4a8294b76ebb134bc, type: 3}
+  - _id: Club_Nine
+    _card:
+      Family: 2
+      Type: 9
+      Color: 0
+    _image: {fileID: 21300000, guid: 33d9aa77ed3bc634dbeca2a108573a7b, type: 3}
+  - _id: Club_Ten
+    _card:
+      Family: 2
+      Type: 10
+      Color: 0
+    _image: {fileID: 21300000, guid: 1508f7da4f6218a499690545a8728352, type: 3}
+  - _id: Club_Jack
+    _card:
+      Family: 2
+      Type: 11
+      Color: 0
+    _image: {fileID: 21300000, guid: cc06072c848491446b59611cef8d1ed2, type: 3}
+  - _id: Club_Queen
+    _card:
+      Family: 2
+      Type: 12
+      Color: 0
+    _image: {fileID: 21300000, guid: de46bb97e4dffb34096a0aa8a43ab4e5, type: 3}
+  - _id: Club_King
+    _card:
+      Family: 2
+      Type: 13
+      Color: 0
+    _image: {fileID: 21300000, guid: b6b6de164733a1d4793f02442c9776e4, type: 3}
+  - _id: Diamond_Ace
+    _card:
+      Family: 3
+      Type: 1
+      Color: 0
+    _image: {fileID: 21300000, guid: 172570b9b63e7e841975034d4a8f4358, type: 3}
+  - _id: Diamond_Two
+    _card:
+      Family: 3
+      Type: 2
+      Color: 0
+    _image: {fileID: 21300000, guid: 8ae00dbc505ed6f428abd034f7f39532, type: 3}
+  - _id: Diamond_Three
+    _card:
+      Family: 3
+      Type: 3
+      Color: 0
+    _image: {fileID: 21300000, guid: fe4c25ac0a62fa243825e74a6bebe82b, type: 3}
+  - _id: Diamond_Four
+    _card:
+      Family: 3
+      Type: 4
+      Color: 0
+    _image: {fileID: 21300000, guid: a607e565f06d15d4085bfbc93d4e71f8, type: 3}
+  - _id: Diamond_Five
+    _card:
+      Family: 3
+      Type: 5
+      Color: 0
+    _image: {fileID: 21300000, guid: 8cebeffb6d5b77e40a4c37d2d8966908, type: 3}
+  - _id: Diamond_Six
+    _card:
+      Family: 3
+      Type: 6
+      Color: 0
+    _image: {fileID: 21300000, guid: f1ae9904d9e9f3340af373efa20fd576, type: 3}
+  - _id: Diamond_Seven
+    _card:
+      Family: 3
+      Type: 7
+      Color: 0
+    _image: {fileID: 21300000, guid: fd2b079c0b43afc48a2f83ccdcc25e37, type: 3}
+  - _id: Diamond_Eight
+    _card:
+      Family: 3
+      Type: 8
+      Color: 0
+    _image: {fileID: 21300000, guid: ea7950618d6791f4dbab9818f7bf1e30, type: 3}
+  - _id: Diamond_Nine
+    _card:
+      Family: 3
+      Type: 9
+      Color: 0
+    _image: {fileID: 21300000, guid: d33217e9b6f0b0e44b11e73847c17b9b, type: 3}
+  - _id: Diamond_Ten
+    _card:
+      Family: 3
+      Type: 10
+      Color: 0
+    _image: {fileID: 21300000, guid: 7c9b88303c1fbbb4fbb3c7e116be568e, type: 3}
+  - _id: Diamond_Jack
+    _card:
+      Family: 3
+      Type: 11
+      Color: 0
+    _image: {fileID: 21300000, guid: ae2ebd626eb5f814bb2b54a7f0d05413, type: 3}
+  - _id: Diamond_Queen
+    _card:
+      Family: 3
+      Type: 12
+      Color: 0
+    _image: {fileID: 21300000, guid: 556a24b7a005d0e44b8e657f0cf1fede, type: 3}
+  - _id: Diamond_King
+    _card:
+      Family: 3
+      Type: 13
+      Color: 0
+    _image: {fileID: 21300000, guid: 154e0a4752a0d7e49b657b407ac9c758, type: 3}
+  - _id: Spare_Ace
+    _card:
+      Family: 0
+      Type: 1
+      Color: 0
+    _image: {fileID: 21300000, guid: 4560eed6fba37d843b784d34ff401d63, type: 3}
+  - _id: Spare_Two
+    _card:
+      Family: 0
+      Type: 2
+      Color: 0
+    _image: {fileID: 21300000, guid: b2bcb515a3e67c94c8e7c6920da96536, type: 3}
+  - _id: Spare_Three
+    _card:
+      Family: 0
+      Type: 3
+      Color: 0
+    _image: {fileID: 21300000, guid: bb9ea791da215264492a350a3b10b85f, type: 3}
+  - _id: Spare_Four
+    _card:
+      Family: 0
+      Type: 4
+      Color: 0
+    _image: {fileID: 21300000, guid: 99c1f7b0f5ed077418862b048964789e, type: 3}
+  - _id: Spare_Five
+    _card:
+      Family: 0
+      Type: 5
+      Color: 0
+    _image: {fileID: 21300000, guid: 6116bd84635285f4fbab215ccd160e3e, type: 3}
+  - _id: Spare_Six
+    _card:
+      Family: 0
+      Type: 6
+      Color: 0
+    _image: {fileID: 21300000, guid: 508c7e84eb0bfbb4d9582a4e7b72d51e, type: 3}
+  - _id: Spare_Seven
+    _card:
+      Family: 0
+      Type: 7
+      Color: 0
+    _image: {fileID: 21300000, guid: cae394f6cd86b7340980db3f7500b8eb, type: 3}
+  - _id: Spare_Eight
+    _card:
+      Family: 0
+      Type: 8
+      Color: 0
+    _image: {fileID: 21300000, guid: 296e07964c0bd0b4c8062dda1bec54d7, type: 3}
+  - _id: Spare_Nine
+    _card:
+      Family: 0
+      Type: 9
+      Color: 0
+    _image: {fileID: 21300000, guid: 44b67b420371ac04f8120edf89d2d697, type: 3}
+  - _id: Spare_Ten
+    _card:
+      Family: 0
+      Type: 10
+      Color: 0
+    _image: {fileID: 21300000, guid: ff74c4ee622ba2844b8c7cfcfa9360a1, type: 3}
+  - _id: Spare_Jack
+    _card:
+      Family: 0
+      Type: 11
+      Color: 0
+    _image: {fileID: 21300000, guid: 6acf95d3fcfaa3045bdc30b6081bee0a, type: 3}
+  - _id: Spare_Queen
+    _card:
+      Family: 0
+      Type: 12
+      Color: 0
+    _image: {fileID: 21300000, guid: 57c900d6c99a2f54bb31e1e0664425a1, type: 3}
+  - _id: Spare_King
+    _card:
+      Family: 0
+      Type: 13
+      Color: 0
+    _image: {fileID: 21300000, guid: 16d5184c3f50e5e4c8d3a5556dbd0a61, type: 3}
+  - _id: Heart_Ace
+    _card:
+      Family: 1
+      Type: 1
+      Color: 0
+    _image: {fileID: 21300000, guid: 80f89eff3e26773419653e3901623f9d, type: 3}
+  - _id: Heart_Two
+    _card:
+      Family: 1
+      Type: 2
+      Color: 0
+    _image: {fileID: 21300000, guid: b6501a1bdb05cd743b6d6e1bca3d6c86, type: 3}
+  - _id: Heart_Three
+    _card:
+      Family: 1
+      Type: 3
+      Color: 0
+    _image: {fileID: 21300000, guid: d6f860b9021eea244b095402379d47c5, type: 3}
+  - _id: Heart_Four
+    _card:
+      Family: 1
+      Type: 4
+      Color: 0
+    _image: {fileID: 21300000, guid: 1ac99d3000ed8d841a11c6ba5b1c95b8, type: 3}
+  - _id: Heart_Five
+    _card:
+      Family: 1
+      Type: 5
+      Color: 0
+    _image: {fileID: 21300000, guid: 79436de290aa2ed4cb27d977f80eb263, type: 3}
+  - _id: Heart_Six
+    _card:
+      Family: 1
+      Type: 6
+      Color: 0
+    _image: {fileID: 21300000, guid: 8cf523a923784c741b02af94798bd09a, type: 3}
+  - _id: Heart_Seven
+    _card:
+      Family: 1
+      Type: 7
+      Color: 0
+    _image: {fileID: 21300000, guid: a1b978de6fb51e84e9817ddf10362154, type: 3}
+  - _id: Heart_Eight
+    _card:
+      Family: 1
+      Type: 8
+      Color: 0
+    _image: {fileID: 21300000, guid: ce868a5ce1dd9754690405310c9f6688, type: 3}
+  - _id: Heart_Nine
+    _card:
+      Family: 1
+      Type: 9
+      Color: 0
+    _image: {fileID: 21300000, guid: 828cc12f4e8301f4fb2ba0802f39fc28, type: 3}
+  - _id: Heart_Ten
+    _card:
+      Family: 1
+      Type: 10
+      Color: 0
+    _image: {fileID: 21300000, guid: f26a9d51f971fc54fb6fd393891a491a, type: 3}
+  - _id: Heart_Jack
+    _card:
+      Family: 1
+      Type: 11
+      Color: 0
+    _image: {fileID: 21300000, guid: 5fa96167e03c18e408dcc9657ad8c9c8, type: 3}
+  - _id: Heart_Queen
+    _card:
+      Family: 1
+      Type: 12
+      Color: 0
+    _image: {fileID: 21300000, guid: 063d0caa67021c046af020b6862dae78, type: 3}
+  - _id: Heart_King
+    _card:
+      Family: 1
+      Type: 13
+      Color: 0
+    _image: {fileID: 21300000, guid: 5ea4151b8be4434448e0e883bbe83786, type: 3}
+  - _id: Heart_King
+    _card:
+      Family: 4
+      Type: -1
+      Color: 1
+    _image: {fileID: 21300000, guid: c338cbfb5f2f57d4abb1ba1dd98ccd0f, type: 3}
+  - _id: Heart_King
+    _card:
+      Family: 4
+      Type: -1
+      Color: 2
+    _image: {fileID: 21300000, guid: f64692bf449636b45a2ffe231624ecb8, type: 3}
+  _cardsInfoToImages:
+  - _word: Index
+    _image: {fileID: 21300000, guid: 401c479b4b31a744f876e5e3d51a7d4c, type: 3}
+  - _word: Back
+    _image: {fileID: 21300000, guid: d1c3b500599f7f34689e774ebb498128, type: 3}
+  - _word: Artists
+    _image: {fileID: 21300000, guid: 06508a1f289c0c14a91e41fa32fe8417, type: 3}
+--- !u!114 &114672289037918288
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1952973507555650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 935c180f201f5414fb9843b21dbba80d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _registerTargetAfter: 2
+  _targetsInScene: []
+  _onTrackerChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: VuforiaTargetsManager+TrackerChangedStatus, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &114838001438731458
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1952973507555650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1cbd412f02cddf479c0b9a28273e135, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _deckDetection: {fileID: 114195996835880734}
+  _ui: {fileID: 114388457377156686}
